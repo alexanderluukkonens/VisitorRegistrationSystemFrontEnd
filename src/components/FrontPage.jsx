@@ -31,14 +31,14 @@ export function FrontPage() {
       if (response.ok) {
         
         const sucessmessage = await response.text(); 
-        alert(sucessmessage);                        
+        alert(sucessmessage);                 
         
         setName('');
         setEmail('');
       } else {
         
         const errorMessage = await response.text();
-        alert(errorMessage);                       
+        alert(errorMessage);                      
       }
       
     } catch (error) {
