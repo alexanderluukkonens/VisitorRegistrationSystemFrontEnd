@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import "../css/FrontPage.css";
-import { useState } from 'react';
-import "../css/FrontPage.css";
 
 export function FrontPage() {
 
