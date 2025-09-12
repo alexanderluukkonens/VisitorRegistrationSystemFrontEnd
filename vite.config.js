@@ -7,10 +7,12 @@ export default defineConfig({
    server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:7071',
+        target: 'https://alexander-cloud-based-functions.azurewebsites.net',
         changeOrigin: true,
         secure: false
       }
     }
   }
 });
+
+

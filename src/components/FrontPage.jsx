@@ -63,6 +63,8 @@ export function FrontPage() {
 
         <div className="content">
           <input
+            required
+            maxLength={"30"}
             placeholder="Enter your full name..."
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -71,6 +73,8 @@ export function FrontPage() {
 
 
           <input
+            required
+            maxLength={"50"}
             placeholder="Enter your email..."
             value={email}
             onChange={(e) => setEmail(e.target.value)}
