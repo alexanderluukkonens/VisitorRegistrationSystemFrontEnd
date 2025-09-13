@@ -1,4 +1,4 @@
-Visitor Registration System - Frontend
+# Visitor Registration System - Frontend
 
 React-based frontend application for visitor registration, built with Vite and deployed using GitHub Pages.
 
