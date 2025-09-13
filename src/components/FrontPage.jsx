@@ -17,7 +17,7 @@ export function FrontPage() {
     try {
 
       // Create POST request to registor visitor API 
-      const response = await fetch('/api/RegisterVisitor', {
+      const response = await fetch('https://alexander-cloud-based-functions.azurewebsites.net/api/RegisterVisitor', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
